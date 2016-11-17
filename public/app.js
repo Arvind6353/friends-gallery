@@ -9,6 +9,18 @@ function CarouselDemoCtrl($scope){
        
   ];
 
+
+
+for(var i=1;i<20;i++)
+ {
+
+    var ob=new Object();
+    ob.image="img1/p"+i+".jpg";
+    $scope.slides.push(ob);
+ } 
+
+
+
 for(var i=1;i<55;i++)
  {
 
